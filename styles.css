@@ -1,0 +1,194 @@
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+}
+
+div {
+    background-color: cornflowerblue;
+}
+
+div div {
+    background-color: aqua;
+}
+
+div div div {
+    background-color: red;
+}
+
+div div div div {
+    background-color: yellow;
+}
+
+h1 {
+    font-size: 4.5rem;
+    font-weight: normal;
+}
+
+h2 {
+    font-size: 3rem;
+    font-weight: normal;
+}
+
+h3, p {
+    font-size: 2rem;
+    font-weight: normal;
+}
+
+nav {
+    width: 100%;
+    height: 110px;
+    position: fixed;
+    overflow: hidden;
+    background-color: white;
+    z-index: 10;
+}
+
+footer {
+    width: 100%;
+    height: 170px;
+    background-color: #bf7631;
+    overflow: hidden;
+}
+
+.large-line {
+    border-bottom: solid 5px;
+}
+
+/* NAV BAR SETTINGS */
+.nav-content {
+    display: flex;
+    margin-left: 7.3%;
+    margin-right: 7.3%;
+    height: 75px;
+    justify-content: space-between;
+}
+
+.nav-tabs ul {
+    list-style-type: none;
+}
+
+.nav-tabs li {
+    float: left;
+}
+
+.nav-tabs li a {
+    color: black;
+    text-decoration: none;
+}
+
+.nav-tabs li a:hover{
+    color: #bf7631;
+}
+
+.nav-logo-header{
+    display: flex;
+}
+
+.nav-search {
+    display: flex;
+}
+
+.nav-cart-info{
+}
+
+/* LANDING PAGE HEADER */
+.landing {
+    padding-top: 110px;
+    width: 100%;
+    background-color: black;
+}
+
+.landing-img{
+    margin-inline: 100px;
+    background-image: url("assests/earl-wilcox-y3W0CzO063w-unsplash-alt.jpg");
+    background-size: 100% 100%;
+    height: 640px;
+}
+
+.landing-filter{
+    display: flex;
+    justify-content: space-between;
+    width: inherit;
+    height: inherit;
+    background-image: linear-gradient(to right, rgba(0,0,0,1), rgba(255,0,0,0), rgba(0,0,0,1))
+}
+
+.landing-text{
+    color: white;
+}
+
+.landing-text-left-qoute {
+    width: 270px;
+    height: auto;
+    margin-top: 100px;
+    margin-left: 2.3%;
+    align-self: flex-start;
+    justify-self: flex-end;
+}
+
+.landing-text-right-qoute {
+    width: 270px;
+    height: auto;
+    margin-bottom: 100px;
+    margin-right: 2.3%;
+    align-self: flex-end;
+    justify-self: right;
+    text-align: right;
+}
+
+/* ABOUT US */
+.about-us {
+    display: flex;
+    align-items: flex-start;
+    margin-left: 7.3%;
+    margin-right: 7.3%;
+    margin-top: 120px;
+}
+
+.about-us-large-img {
+    transform: scaleX(-1);
+    object-fit: scale-down;
+}
+
+.about-us-title {
+    padding-bottom: 20px;
+}
+
+.about-us-contant-top{
+    height: 50%;
+    overflow: hidden;
+    text-align: justify;
+}
+
+.about-us-contant-bottom    {
+    height: 50%;
+    overflow: hidden;
+    text-align: justify;
+}
+
+.about-us-small-img{
+    float: left;
+    height: 100%;
+    padding-right: 10px;
+    object-fit: scale-down;
+}
+
+/* PRODUCT LIST */
+.product-to-cart{
+    background-color: #bf7631;
+    padding: 6px 17px;
+    color: white;
+    border: none;
+    font-size: 2rem;
+}
+
+/* FOOTER */
